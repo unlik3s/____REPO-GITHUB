@@ -5,4 +5,6 @@
 ## Prerequisites: Extended log must be enabled in IIS for detection of HTTPS cipher and log parser installed 
 ## https://www.microsoft.com/security/blog/2017/09/07/new-iis-functionality-to-help-identify-weak-tls-usage/
 ## Usage : Example 1 : .\Analyse_crypto_v1.0.ps1 -HTTPCipher $true -SMTPCipher $false -AgeLog "-24" -jobsNumber 5 -Output "c:\Scripts\Results"
-################################################################################################################################################
+##########################################################################################################################################Before running this script : 
+1) Install log parser
+2) Enable Extended IIS log : https://www.microsoft.com/security/blog/2017/09/07/new-iis-functionality-to-help-identify-weak-tls-usage/
